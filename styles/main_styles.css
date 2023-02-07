@@ -827,7 +827,8 @@ section
 	width: 100%;
 	height: 100%;
 	background-repeat: no-repeat;
-	background-size: cover;
+	/* background-size: cover; */
+	background-size: contain;
 	background-position: center center;
 }
 .home_slider_content_container
@@ -865,7 +866,7 @@ section
 	display: inline-block;
 	position: absolute;
 	left: 0;
-	bottom: 0;
+	top: 300px;
 	z-index: 10;
 	width: 100%;
 	padding-left: 60px;
@@ -885,7 +886,7 @@ section
 {
 	display: inline-block;
 	position: relative;
-	color: #FFFFFF;
+	color: #000000;
 	cursor: pointer;
 	font-size: 14px;
 	font-weight: 600;
